@@ -49,7 +49,7 @@ Now, use it in your template:
 ```
 
 ## Limitations
-This package is based on Laraberg frontend sources and under the hood, these both use Wordpress Gutenberg editor. Only a single Gutenberg editor can present on the page at the time.
+This package is based on [Laraberg](https://github.com/VanOns/laraberg) frontend sources and under the hood, these both use Wordpress Gutenberg editor. Only a single Gutenberg editor can present on the page at the time.
 
 ## Development
 Building the package from source directory needs some more steps and that's because of how Gutenberg should be built (>250MB). I'm taking instructions from [here](https://github.com/VanOns/laraberg/issues/47#issuecomment-519416511):
