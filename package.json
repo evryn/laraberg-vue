@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue serve src/LarabergEditor.vue",
-    "build": "vue build --target lib src/index.js && node ./cleanup.js",
-    "serve-example": "vue serve example/main.js"
+    "build": "vue build --target lib src/index.js && node ./cleanup.js"
   },
   "repository": {
     "type": "git",
