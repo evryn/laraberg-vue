@@ -32,7 +32,7 @@ Vue.use(LarabergVue, {
 })
 ```
 
-You can pass other [Laraberg options](https://github.com/VanOns/laraberg#configuration-options) too. It's also possible to easily register your custom blocks. See [Laraberg Vue Example](https://github.com/evryn/laraberg-vue-example) project to advanced usage.
+You can pass other [Laraberg options](https://github.com/VanOns/laraberg#configuration-options) too. It's also possible to easily register your custom blocks. See [Laraberg Vue Example](https://github.com/evryn/laraberg-vue-example) project for advanced usage.
 
 Now, use it in your template:
 
