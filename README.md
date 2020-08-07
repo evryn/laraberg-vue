@@ -6,7 +6,7 @@
 
 # Laraberg Vue
 
-This package contains editor-only part of Laraberg that can be implemented in your Vue.js app. For the backend, using Laraberg is required.
+This package contains editor-only part of [Laraberg](https://github.com/VanOns/laraberg) that can be implemented in your Vue.js app. For the backend, using Laraberg is required.
 
 Its API can handle cookie-based authentications nicely (for example, Laravel Sanctum). You can edit `src/js/api/api-fetch.js` in case you need to deal with API calls (such as token-based auths). Read development section below for more details in this case. 
 
@@ -55,7 +55,7 @@ Now, use it in your template:
 ```
 
 ## Limitations
-This package is based on [Laraberg](https://github.com/VanOns/laraberg) frontend sources and under the hood, these both use Wordpress Gutenberg editor. Only a single Gutenberg editor can present on the page at the time.
+This package is based on Laraberg frontend sources and under the hood, these both use Wordpress Gutenberg editor. Only a single Gutenberg editor can present on the page at the time.
 
 ## Development
 Building the package from source directory needs some more steps and that's because of how Gutenberg should be built (>250MB). I'm taking instructions from [here](https://github.com/VanOns/laraberg/issues/47#issuecomment-519416511):
