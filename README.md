@@ -1,12 +1,10 @@
 <p align="center">
   <a href="https://github.com/evryn/laraberg-vue">
-    <img alt="Laraberg Vue" height="300px" src="./assets/laraberg-vue.svg">
+    <img alt="Laraberg Vue" height="300" src="./assets/laraberg-vue.png">
   </a>
 </p>
 
-<p align="center">
-  Laraberg Vue
-</p>
+# Laraberg Vue
 
 This package contains editor-only part of Laraberg that can be implemented in your Vue.js app. For the backend, using Laraberg is required.
 
