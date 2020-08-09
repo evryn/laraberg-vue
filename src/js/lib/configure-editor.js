@@ -98,10 +98,14 @@ function setHeight (height) {
  * @param {Object} options the options object provided on initialization
  */
 function setupMedia (options) {
+  if (options.preserveMediaBlocks) {
+    return
+  }
+
   removeUploadButton()
   if (options.laravelFilemanager) {
     setupLaravelFilemanager(options.laravelFilemanager)
-  } else if (!options.preserveMediaBlocks) {
+  } else {
     setupMockFilemanager()
     data.dispatch('core/blocks').removeBlockTypes([
       'core/cover',
