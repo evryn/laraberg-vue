@@ -101,7 +101,7 @@ function setupMedia (options) {
   removeUploadButton()
   if (options.laravelFilemanager) {
     setupLaravelFilemanager(options.laravelFilemanager)
-  } else {
+  } else if (!options.preserveMediaBlocks) {
     setupMockFilemanager()
     data.dispatch('core/blocks').removeBlockTypes([
       'core/cover',
