@@ -1,6 +1,6 @@
 {
   "name": "laraberg-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Editor-only part of Laraberg package for Vuejs",
   "main": "dist/laraberg-vue.common.js",
   "scripts": {
