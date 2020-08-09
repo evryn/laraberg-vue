@@ -1,4 +1,3 @@
-import LarabergEditor from './LarabergEditor.vue'
 import Laraberg from "./js/laraberg";
 
 /* global process */
@@ -20,7 +19,7 @@ const LarabergVue = {
       Vue.prototype.$laraberg().registerBlock(block.name, block.block)
     });
 
-    Vue.component('laraberg-editor', LarabergEditor)
+    Vue.component('laraberg-editor', () => import('./LarabergEditor'))
   }
 }
 
