@@ -19,6 +19,8 @@ const LarabergVue = {
     (options.customBlocks ?? []).forEach(block => {
       Vue.prototype.$laraberg().registerBlock(block.name, block.block)
     });
+
+    Vue.component('laraberg-editor', LarabergEditor)
   }
 }
 
