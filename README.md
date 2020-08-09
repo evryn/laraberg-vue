@@ -65,7 +65,7 @@ Building the package from source directory needs some more steps and that's beca
 git clone git@github.com:evryn/laraberg-vue.git
 ```
 
-2- [Download Wordpress Gutenberg v8.1](https://codeload.github.com/WordPress/gutenberg/zip/release/8.1), extract it into a directory 
+2- [Download Wordpress Gutenberg v8.1](https://codeload.github.com/WordPress/gutenberg/zip/release/8.1), extract it into a directory  
 3- In extracted directory, build Wordpress Gutenberg and link it to your global node_modules:
 ```bash
 npm install
