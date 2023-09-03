@@ -1,5 +1,5 @@
 > **Warning**
-> This repository is not maintained anymore. If you're a Vue.js developer and interested in maintaining this repository, [create a new discussion](https://github.com/evryn/laraberg-vue/discussions/new?category=general) and let us know, please.
+> This repository is archived for read-only purpose and is not maintained anymore. If you're a Vue.js developer and interested in maintaining this repository, [create a new discussion](https://github.com/evryn/laraberg-vue/discussions/new?category=general) and let us know, please.
 
 
 <p align="center">
